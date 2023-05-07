@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    background: black;
+}
+
+body {
+    margin: 0;
+
+    /* padding-left: 100px; */
+    /* padding-right: 50px; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* background-color: black; */
+  }
+
+
+.maindiv{
+    display: block;
+    height: 100vh;
+    width: calc(100% - 0px);
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    background-color: black;
+  }
+  
+  
+  #rdiv{
+    float: right;
+    /* background-color: black;
+     */
+     /* background-image: linear-gradient(rgba(77, 77, 77, 0.51) , );
+      */
+      /* position: absolute; */
+      /* left: 50px; */
+      align-self: center;
+      align-items: center;
+    width: calc(100% - 0px);
+    height: 100vh;
+    z-index: 1;
+    /* border: 8px solid white; */
+    border-radius: 6px;
+    /* opacity: 0.5; */
+
+  }
+  .rdivoverlay{
+    align-self: center;
+    align-items: center;
+      position: absolute;
+      right: 0%;
+    width: calc(100% - 0px);
+    height: 100vh;
+    z-index: 2;
+    /* opacity: 0.5; */
+    background-color: rgba(000, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ldiv{
+    width: calc(50% - 0px);
+    height: 60vh;
+    min-height: fit-content;
+    float: left;
+    z-index: 3;
+    background-color:rgba(000, 0, 0, 0.8) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 50px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .mdiv{
+    width: 0px;
+    /* background-image: linear-gradient(to right , black,white ); */
+    /* background-color: grey; */
+  }
+  #rbg{
+    width: 100%;
+    object-fit: contain;
+  }
+  h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+  }
+  h1{
+      font-size: 56px;
+      background: linear-gradient(45deg, #FFB000 50%, white 50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  @media (max-width: 900px) {
+    .ldiv{
+      width:calc(100% - 30px);
+      /* margin-left: 15px; */
+    }
+  }
+  
+  .t5{
+    margin-top: 50px;
+  }
+  .h7{
+    margin: 10px;
+  }
+  h4{
+    /* background: linear-gradient(45deg,  white 50% ,#9B6610 40%); */
+    background-color: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .h8{
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .f{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  #eid{
+        width: 40%;
+        min-width: 300px;
+        font-size: 15px;
+        padding: 10px;
+        height: auto;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 1px solid #1c87c9 ;
+        color: gray;
+        margin-bottom: 10px;
+  }
+
+  #sbtn{
+      width: fit-content;
+      padding: 12px;
+      font-size: 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      background-image: linear-gradient( 45deg ,  #1c87c9 50% ,black 50%);
+      border: 1px solid #1c87c9 ;
+      color: white;
+      transition-property: background-image;
+      transition-duration: 1s;
+      -webkit-transition: background-image 0.2s ease-in-out;
+      transition: background-image 0.2s ease-in-out;
+  }
+
+#sbtn:hover{
+    color: aliceblue;
+    background-image: linear-gradient( 45deg ,  black 50% ,black 50%);
+    /* transform-origin: 0 bottom 0;
+    transform: scaleX(0); */
+
+}
+
+.logo-1{
+  height: 200px;
+  width: 200px;
+}
+
+.btn-01{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-us-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.logof-1{
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+   margin-right: 10px;
+}

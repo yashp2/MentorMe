@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./vegas.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    function redirect(){
+      location.href = 'https://wa.me/+91885603860';
+    }
+  </script>
+    <div class='maindiv'>
+      <div class="rdivoverlay">
+        <div class='ldiv'>
+          <!-- <img src='./bg.png' id="rbg" /> -->
+          <div>
+            <img src="./FR_Artboard 5.png" alt="logo" class="logo-1">
+            <!-- <h4 class='h8 h9'>presents</h4> -->
+            <h1 class='h8'>MentorMee</h1>
+            <h3 class='t5 h7'>~Building future together</h3>
+            <h2 class='h8 h9'>Website Launching Soon!</h2>
+          </div>
+          <div style="margin-top: 10px;" class="f" >
+            <!-- <input type="email" name="" id="eid" placeholder="Email-Id">
+            <input type="submit" value="Stay Tuned!" id="sbtn">
+             -->
+             <a href="https://wa.me/+918856038603">
+              
+             </a>
+             <div class="btn-01 contact-us-div" onclick="redirect()">
+              <img src="./w-logo.png" alt="" srcset="" class="logof-1">
+                <h3>Chat with Us</h3>
+             </div>
+          </div>
+          <div class='bubble'></div>
+        </div>
+      </div>
+        
+
+      <div class='mdiv'></div>
+        <div id='rdiv' class="box">
+
+        </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="https://raw.githubusercontent.com/jaysalvat/vegas/master/dist/vegas.min.js"></script>
+<script src="./vegas.min.js"></script>
+
+<script>
+  $('#rdiv').vegas({
+overlay: true,
+transition: 'swirlRight', 
+timer: false,
+transitionDuration: 2000,
+delay: 5000,
+animation: 'random',
+animationDuration: 10000,
+slides: [
+{ src: './001.jpg' },
+{ src: './002.png' }
+// { src: './003.jpg' },
+// { src: './004.jpg' },
+// { src: './005.jpg' },
+// {src:'./006.jpg'},
+// {src:'./007.jpg'}
+
+]
+});
+</script>
+</html>
